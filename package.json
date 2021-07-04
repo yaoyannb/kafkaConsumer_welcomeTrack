@@ -1,0 +1,11 @@
+{
+  "name": "kafkaconsumer_welcometrack",
+  "version": "1.0.0",
+  "description": "kafka consumer designed for the homework of welcomeTrack",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yann BOHOUSSOU",
+  "license": "ISC"
+}
