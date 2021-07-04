@@ -4,8 +4,19 @@
   "description": "kafka consumer designed for the homework of welcomeTrack",
   "main": "js/main.js",
   "scripts": {
+    "start": "tsc && node js/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "yann BOHOUSSOU",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.0.0",
+    "kafkajs": "^1.15.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "eslint": "^7.30.0"
+  }
 }
